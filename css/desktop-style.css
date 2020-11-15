@@ -234,3 +234,7 @@ main>article>section>h3::before {
   width: 12px;
   border-radius: 100%;
 }
+
+.yui-u>p {
+  line-height: 12px;
+}

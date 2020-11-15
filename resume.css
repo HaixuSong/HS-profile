@@ -41,7 +41,7 @@ body {
 
 #inner {
     padding: 10px 80px;
-    margin: 30px auto;
+    margin: 0 auto;
     background: #f5f5f5;
     border: solid #666;
     border-width: 8px 0 2px 0;
@@ -57,7 +57,7 @@ body {
 
 #hd {
     margin: 1em 0 1em 0;
-    padding-bottom: 1.5em;
+    padding-bottom: 1em;
     border-bottom: 1px solid #ccc
 }
 
@@ -226,6 +226,26 @@ a#pdf:hover {
 
 .yui-gf .yui-u {
     width: 80.2%;
+}
+
+.yui-u>p {
+    line-height: 21px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: grey;
+}
+
+.yui-u>p:last-child {
+    border-bottom: none;
+}
+
+.yui-u>p>.tech-title {
+    font-size: 18px;
+    margin: 0 8px;
+    color: black;
+}
+
+.yui-u>p>.tech-detail {
+    margin: 0 5px;
 }
 
 .yui-gf div.first {
